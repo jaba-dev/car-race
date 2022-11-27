@@ -1,0 +1,28 @@
+button {
+  margin: 20px 0px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+button:active {
+  transform: translateY(8px);
+}
+
+div {
+  height: 60px;
+  width: 100px;
+}
+
+.car1,
+.car2,
+.car3 {
+  margin-left: 0;
+}
